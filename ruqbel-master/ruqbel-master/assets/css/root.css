@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+html, body {
+    overflow-x: hidden;
+}
+
+:root {
+    /* width default */
+    --width-default: min(100%, 1240px);
+
+    /* Font Size */
+    font-size: 16px;
+
+    /* === TRANSITION START === */
+    --bubble: cubic-bezier(0.65, 1.68, 0.45, 0.46);
+    /* === TRANSITION END === */
+
+
+
+    /* === COLOR START === */
+    --primary-linear-gradient: linear-gradient(135deg, #45FFFF, #6863E1);
+
+    /* ===> */
+    /* --primary-color: #45FFFF;
+    --secondary-color: #6863E1;
+    --tertiary-color: #64F0D5;
+    --quaternary-color: #AA00FF; */
+    /* <=== */
+
+    --primary-color: #1B3F7D;
+    --secondary-color: #387196;
+    --tertiary-color: #64BEBC;
+    --quarternary-color: #A4C7D2;
+
+    /* --- soft --- */
+    --soft-blue-color: #E0F4F5;
+    --soft-yellow-color: #F4F5E0;
+    --soft-red-color: #F5E0E0;
+    --soft-green-color: #E2F5E0;
+
+    /* --- B&W --- */
+    --black-color: #212121;
+    --black-gray-color: #3b3b3b;
+    --gray-color: #787a96;
+    --white-color: #FFFFFF;
+
+    --black-80-color: rgba(0, 0, 0, 0.8);
+    --black-70-color: rgba(0, 0, 0, 0.7);
+    --black-50-color: rgba(0, 0, 0, 0.5);
+    --black-30-color: rgba(0, 0, 0, 0.3);
+    --black-20-color: rgba(0, 0, 0, 0.2);
+    --black-10-color: rgba(0, 0, 0, 0.1);
+    
+    --white-80-color: rgba(255, 255, 255, 0.8);
+    --white-70-color: rgba(255, 255, 255, 0.7);
+    --white-50-color: rgba(255, 255, 255, 0.5);
+    --white-30-color: rgba(255, 255, 255, 0.3);
+    --white-20-color: rgba(255, 255, 255, 0.2);
+    --white-10-color: rgba(255, 255, 255, 0.1);
+    
+    /* --- link --- */
+    --link-color: #0000FF;
+    --visited-color: #800080;
+
+    /* --- font --- */
+    --dark-color: #1b1b1b;
+    --light-color: #FFFFFF;
+
+    --button-primary: #328FF7;
+    --button-secondary: #30EBFF;
+
+    --button-tertiary: #234D84;
+    --button-quaternary: #3C799A;
+    /* === COLOR END === */
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruqbel - Optimalkan Ibadah Kurban</title>
+
+    <!-- vendor -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- custom -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <div class="top">
+                <img src="./assets/images/ruqbel.png" alt="Ruqbel" onclick="location.href='#'">
+                <div class="hamburger">
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                </div>
+            </div>
+            <ul class="wrapper">
+                <li><a href="">Home</a></li>
+                <li class="container-dropdown"><a>Features</a>
+                    <ul class="dropdown">
+                        <li>Features 1</li>
+                        <li>Features 2</li>
+                        <li>Features 3</li>
+                    </ul>
+                </li>
+                <li class="container-dropdown"><a>Option</a>
+                    <ul class="dropdown">
+                        <li>Option 1</li>
+                        <li>Option 2</li>
+                        <li>Option 3</li>
+                    </ul>
+                </li>
+
+                <li><a href="">About Us</a></li>
+                <li><a href="">News</a></li>
+            </ul>
+
+            <button class="btn-custom login" onclick="location.href='./pages/login.html'">Log in</button>
+
+        </div>
+    </nav>
+
+    <script>
+
+    </script>
+    <main>
+        <section class="landing-page">
+            <div class="container-landing-page">
+                <div class="wrapper">
+                    <div class="header">
+                        <h1>Optimalkan Ibadah Kurban Anda dengan <img src="./assets/images/ruqbel_white.png"></h1>
+                        <h5>Sudah memiliki akun? Silakan Log in</h5>
+                        <div class="login-signup">
+                            <button class="btn-custom login" onclick="location.href='./pages/login.html'">Log in</button>
+                            <button class="btn-custom signup" onclick="location.href='./pages/signup.html'">Sign up</button>
+                        </div>
+                    </div>
+                    <div class="bg-img">
+                        <img src="./assets/images/header_2.png" alt="header.png">
+                    </div>
+                </div>
+
+                <!-- decoration -->
+                <div class="decoration">
+                    <img src="./assets/images/signal.png">
+                    <img src="./assets/images/Polygon_1.png">
+                    <img src="./assets/images/Polygon_2.png">
+                    <img src="./assets/images/goat.png">
+                    <img src="./assets/images/cow.png">
+                </div>
+
+                <div class="card-container">
+                    <div class="card" onclick="scrollTarget('about')">
+                        <h2>About RUQBEL</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="card" onclick="location.href='./pages/iot.html'">
+                        <h2>IoT on RUQBEL</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="card" onclick="scrollTarget('news')">
+                        <h2>News Kurban</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="first-page main-page" id="about">
+            <div class="container-first-page">
+                <h1>About Ruqbel</h1>
+                <div class="row">
+                    <div class="left">
+                        <div class="child-about">
+                            <p>RUQBEL merupakan sebuah rumah kurban portable yang terintegrasi teknologi IoT. </p>
+                            <h2>Deskripsi 1</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, exercitationem!</p>
+                        </div>
+                        <div class="child-about">
+                            <p>RUQBEL merupakan sebuah rumah kurban portable yang terintegrasi teknologi IoT. </p>
+                            <h2>Deskripsi 2</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, exercitationem!</p>
+                        </div>
+                        <div class="child-about">
+                            <p>RUQBEL merupakan sebuah rumah kurban portable yang terintegrasi teknologi IoT. </p>
+                            <h2>Deskripsi 3</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, exercitationem!</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button onclick="carousel(-1)"><i class="bi bi-caret-left-fill"></i></button>
+                        <div class="container-carousel">
+                            <div class="bg-img">
+                                <div class="child-bg-img">
+                                    <img src="./assets/images/wallpaper1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="bg-img">
+                                <div class="child-bg-img">
+                                    <img src="./assets/images/wallpaper2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="bg-img">
+                                <div class="child-bg-img">
+                                    <img src="./assets/images/wallpaper3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <button onclick="carousel(1)"><i class="bi bi-caret-right-fill"></i></button>
+                    </div>
+                </div>
+                <div class="container-img"></div>
+
+                <!-- decoration -->
+                <div class="decoration">
+                    <img src="./assets/images/Polygon_1.png">
+                    <img src="./assets/images/Polygon_2.png">
+                    <img src="./assets/images/goat.png">
+                    <img src="./assets/images/cow.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="second-page main-page" id="news">
+            <div class="container-second-page">
+                <div class="row">
+                    <div class="left">
+                        <h1>News Ruqbel</h1>
+                        <p>RUQBEL merupakan sebuah rumah kurban portable yang terintegrasi teknologi IoT. Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                    <div class="right">
+                        <button onclick="carouselNews(-1)"><i class="bi bi-caret-left-fill"></i></button>
+                        <div class="container-carousel-news">
+                            <div class="news" onclick="location.href='./pages/news.html?news=1'">
+                                <div class="child-news">
+                                    <img src="./assets/images/wallpaper1.jpg" alt="">
+                                </div>
+                                <h2>Judul 1, Sebar Qurban 2024, Human Initiative Sasar Daerah dengan Konsumsi Daging
+                                    Rendah</h2>
+                                <p>Deskripsi 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quam aperiam
+                                    perspiciatis explicabo animi placeat accusamus vel nostrum corporis! Nisi, neque
+                                    quis sequi perspiciatis similique incidunt commodi autem ex quia.</p>
+                            </div>
+                            <div class="news" onclick="location.href='./pages/news.html?news=2'">
+                                <div class="child-news">
+                                    <img src="./assets/images/wallpaper2.jpg" alt="">
+                                </div>
+                                <h2>Judul 2, Sebar Qurban 2024, Human Initiative Sasar Daerah dengan Konsumsi Daging
+                                    Rendah</h2>
+                                <p>Deskripsi 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quam aperiam
+                                    perspiciatis explicabo animi placeat accusamus vel nostrum corporis! Nisi, neque
+                                    quis sequi perspiciatis similique incidunt commodi autem ex quia.</p>
+                            </div>
+                            <div class="news" onclick="location.href='./pages/news.html?news=3'">
+                                <div class="child-news">
+                                    <img src="./assets/images/wallpaper3.jpg" alt="">
+                                </div>
+                                <h2>Judul 3, Sebar Qurban 2024, Human Initiative Sasar Daerah dengan Konsumsi Daging
+                                    Rendah</h2>
+                                <p>Deskripsi 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quam aperiam
+                                    perspiciatis explicabo animi placeat accusamus vel nostrum corporis! Nisi, neque
+                                    quis sequi perspiciatis similique incidunt commodi autem ex quia.</p>
+                            </div>
+                        </div>
+                        <button onclick="carouselNews(1)"><i class="bi bi-caret-right-fill"></i></button>
+                    </div>
+                </div>
+
+                <!-- decoration -->
+                <div class="decoration">
+                    <img src="./assets/images/cow.png">
+                    <img src="./assets/images/cow.png">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div>
+                <h2>Ruqbel</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, modi.</p>
+            </div>
+            <ul>
+                <li>Features</li>
+                <li><a href="#">Features 1</a></li>
+                <li><a href="#">Features 2</a></li>
+                <li><a href="#">Features 3</a></li>
+                <li><a href="#">Features 4</a></li>
+            </ul>
+            <ul>
+                <li>Option</li>
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+                <li><a href="#">Option 3</a></li>
+                <li><a href="#">Option 4</a></li>
+            </ul>
+            <div class="footer-child">
+                <h2>Ruqbel</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, modi.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <h3>Copyright 2024</h3>
+        </div>
+    </footer>
+
+
+    <script src="./components/navbar/navbar.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
